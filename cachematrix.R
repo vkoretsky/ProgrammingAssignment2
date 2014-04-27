@@ -34,8 +34,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## Use the makeCacheMatrix function (passed in as an argument)
+## to accomplish the behavior below:
 ## If inverse matrix value is cached, print a statement about getting cached
-## data. Otherwise, compute inverse of a matrix with solve function.
+## data. Otherwise, compute inverse of a matrix with solve() and cache it.
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
